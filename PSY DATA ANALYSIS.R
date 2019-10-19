@@ -7,6 +7,7 @@ read.csv(myFile, header = TRUE, sep = "," )
 myFixedFile = read.csv(myFile, header = TRUE, sep = "," )
 #saved the format for future use :)
 
+
 #for psych data set
 allDataUnFixed = file.choose(new = FALSE)
 read.csv(allDataUnFixed, header = TRUE, sep = ",")
